@@ -1,15 +1,25 @@
 
 # Requerimientos para realizar deployd del Microservicio
-El editor de codigo que se uso fue pycharm
-
-####Base de datos
-        *create database api_django1;
-        con los siguientes parametros
-![Alt text]( ./img/BD.JPG "BD")
+####El editor de codigo que se uso fue pycharm
 
 ####Paquetes usados :
     pip install Django==4.1.1
     pip install mysqlclient pymysql 
+
+###Base de datos
+        create database api_django1;
+        *Se creo y configuro en base a los siguientes parametros:
+![Alt text]( ./img/BD.JPG "BD")
+
+#### Integrar BD
+        python manage.py migrate 
+        *Todas las accions deben tener un 'OK', ratificando la 
+        conexion exitosa y la creacion de tablas
+
+
+
+
+
 
 ####Se ejecuta el comando python manage.py runserver 1234
 ####estando en la ruta "Django_SQL_API\Proyecto_Api"    
