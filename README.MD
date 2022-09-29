@@ -87,7 +87,7 @@
 #### Comentarios:
         *Lo realize en Mysql ya que Postgres no lo he manejado como deberia
         * El proyecto se inicializo en Docker pero por temas de tiempo no alcanze a empaquetarlo
-                ya que hasta hace poco empeze a capacitarme sobre kubernetes
+                ya que hasta hace poco empeze a capacitarme sobre docker y kubernetes
         * La relacion de las tablas se puede validar el erchivo models.py
         * Espero que sea de su agrado y de antemano muchas gracias por la oportunidad
 
